@@ -2,14 +2,21 @@
 	margin: 0px;
 	padding: 0px;
 	box-sizing: border-box;
+	/*Default Font Style*/
 	font-family: 'JetBrains Mono', monospace;
 }
+
+/*
+Color
+#FF4D4D = Merah Navbar
+#E9E9E9 = Putih agak tua dikit
+*/
 
 html{
 	height: 100%;
 }
 
-		/*START NAVIGASI*/
+		/*START NAVIGASI - Masih ada bug nnti ku betulin*/
 nav{
 	display: flex;
 	justify-content: space-around; 
@@ -100,8 +107,7 @@ nav{
 }
 	/*END NVIGASI*/
 
-	/*START FOOTER*/
-
+	/*START FOOTER - Selesai (Boleh kalo mau ditambah)*/
 body{
 	display: flex;
 	flex-direction: column;
@@ -126,7 +132,7 @@ footer p{
 }
 		/*END FOOTER*/
 
-		/*START HOME*/
+		/*START HOME - Kurang Desain*/
 .home{
 	display: flex;
     background: url("image/bg-40.jpg") no-repeat center;
@@ -155,7 +161,7 @@ footer p{
 }
 	/*END HOME*/
 
-	/*START SERVICE*/
+	/*START SERVICE - Selesai*/
 .ser{
 	text-align: center;
 	margin-top: 15vh;
@@ -254,6 +260,8 @@ footer p{
 }
 
 	/*END SERVICE*/
+
+	/*START ABOUT - Belum Sama Sekali*/
 .about{
 	display: flex;
     background: #FF4D4D;
