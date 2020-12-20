@@ -17,12 +17,12 @@ html{
 	height: 100%;
 }
 
-		/*START NAVIGASI - Masih ada bug nnti ku betulin*/
+		/*START NAVIGASI*/
 nav{
 	display: flex;
 	justify-content: space-around; 
 	align-items: center;
-	min-height: 10vh;
+	min-height: 8vh;
 	background-color: #FF4D4D;
 	font-family: 'JetBrains Mono', monospace;
 	position: fixed;
@@ -41,7 +41,7 @@ nav{
 .nav-item{
 	display: flex;
 	justify-content: space-around;
-	width: 30%
+	width: 40%
 }
 
 .nav-item li{
@@ -180,6 +180,9 @@ footer p{
 	font-weight: bold;
 	color: #E40000;
 }
+.ser h2{
+	font-weight: bold;
+}
 .service{
 	
 	display: flex;
@@ -271,7 +274,7 @@ footer p{
 }
 	/*END SERVICE*/
 
-	/*START ABOUT - Belum Sama Sekali*/
+	/*START ABOUT*/
 .about{
 	display: flex;
     background: #FF4D4D;
@@ -300,4 +303,122 @@ footer p{
 }
 .about .icons{
 	margin-top: 10vh;
+}
+
+/*START Pricing*/
+.calc{
+	width: 500px;
+	position: relative;
+	margin-top: 20px;
+	top: 50%;
+	left: 50%;
+	background-color: #fff;
+	transform: translate(-50%, -50%);
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 1px 1px 20px #ee5253;
+	margin: 20px;
+}
+		
+.text{
+	text-align: left;
+	margin-left: 150px;
+		}
+
+#w{
+	color: #222f3e;
+	text-align: center;
+	font-size: 20px;
+	font-weight: 200;
+	outline: none;
+	border: none;
+	background: none;
+	border-bottom: 1px solid #341f97;
+	width: 200px;
+}
+			
+#w:focus {
+	border-bottom: 2px solid #341f97;
+	width: 300px;
+	transition: 0.5s;
+}
+			
+#result{
+	color: #341f97;
+}
+			
+#btn{
+	font-family: inherit;
+	margin-top: 10px;
+	border: none;
+	color: #fff;
+	background-image: linear-gradient(120deg,#e91e63, #FF4D4D);
+	width: 150px;
+	padding: 10px;
+	border-radius: 30px;
+	outline: none;
+	cursor: pointer;
+}
+			
+#btn:hover{
+	box-shadow: 1px 1px 10px #341f97;
+}
+			
+#info{
+	font-size: 12px;
+	font-family: inherit;
+}
+.spacing{
+	display: flex;
+    background-color: white;
+    min-height: 5vh;
+    color: #E9E9E9;
+    opacity: 1;
+}
+
+.form-group{
+	margin: 7px;
+}
+.btn{
+	background-color: white;
+}
+.row h3{
+	margin: 3vh;
+}
+iframe{
+	width: 100%
+	padding:10px;
+	border-radius:50px;
+	box-shadow: 0 5px 15px rgba(0,0,0,.2);
+}
+
+/*START Location*/
+.location {
+margin: 5em auto;
+padding: 2em;
+position: all;
+background: linear-gradient(120deg,#e91e63, #FF4D4D);
+text-align: center;
+padding: 20px;
+border-radius: 30px;
+
+
+.location .form-control,
+.location input {
+border-radius: 0;
+}
+.location .btn {
+background-image: linear-gradient(120deg,#e91e63, #FF4D4D);
+border: 1px solid #e91e63;
+color: #fff;
+margin-top: 20px;
+
+}
+
+.row p{
+	text-align: center;
+	font-color: white;
+}
+.form-group input{
+	background-color: blue;
 }
