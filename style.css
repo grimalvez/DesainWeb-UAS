@@ -372,8 +372,10 @@ footer p{
 margin: 5em auto;
 padding: 2em;
 position: all;
-background: url("image/22.jpg") no-repeat center;
-}
+background: linear-gradient(120deg,#e91e63, #FF4D4D);
+text-align: center;
+padding: 20px;
+border-radius: 30px;
 
 
 .location .form-control,
@@ -388,7 +390,7 @@ margin-top: 20px;
 
 }
 
-.row h3{
+.row p{
 	text-align: center;
 	font-color: white;
 }
