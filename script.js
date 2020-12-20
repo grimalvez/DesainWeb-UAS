@@ -18,5 +18,5 @@ navSlide();
 function Price(){
 		var w=document.getElementById('w').value;
 		var price=w*10000;
-		document.getElementById("result").innerHTML="Estimated price IDR " + price ;
+		document.getElementById("result").innerHTML="Estimated price " + price +" IDR";
 		}

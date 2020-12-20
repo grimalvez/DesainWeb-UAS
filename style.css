@@ -93,10 +93,6 @@ nav{
 	.strip{
 		display: block;
 	}
-
-	.location {
-		color: #e91e63;
-	}
 }
 
 .nav-active{
@@ -138,7 +134,6 @@ footer p{
 	letter-spacing: 0px;
 	margin-top: auto;
 }
-.
 		/*END FOOTER*/
 
 		/*START HOME - Kurang Desain*/
@@ -321,10 +316,6 @@ footer p{
 	box-shadow: 1px 1px 20px #ee5253;
 	margin: 20px;
 }
-
-.calc p{
-	text-align: left;
-}
 		
 .text{
 	text-align: left;
@@ -333,7 +324,7 @@ footer p{
 
 #w{
 	color: #222f3e;
-	text-align: left;
+	text-align: center;
 	font-size: 20px;
 	font-weight: 200;
 	outline: none;
@@ -354,6 +345,7 @@ footer p{
 }
 			
 #btn{
+	font-family: inherit;
 	margin-top: 10px;
 	border: none;
 	color: #fff;
@@ -379,8 +371,8 @@ footer p{
 .location {
 margin: 5em auto;
 padding: 2em;
-
-background: url("image/12.jpg") no-repeat center;
+position: all;
+background: url("image/22.jpg") no-repeat center;
 }
 
 
@@ -396,7 +388,7 @@ margin-top: 20px;
 
 }
 
-.row h3, p{
+.row h3{
 	text-align: center;
-	
+	font-color: white;
 }
