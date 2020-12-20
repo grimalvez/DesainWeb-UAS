@@ -12,6 +12,7 @@ Color
 #E9E9E9 = Putih agak tua dikit
 */
 
+
 html{
 	height: 100%;
 }
@@ -21,9 +22,12 @@ nav{
 	display: flex;
 	justify-content: space-around; 
 	align-items: center;
-	min-height: 8vh;
+	min-height: 10vh;
 	background-color: #FF4D4D;
 	font-family: 'JetBrains Mono', monospace;
+	position: fixed;
+	width: 100%;
+	z-index: 5;
 }
 
 .logo{
@@ -136,7 +140,7 @@ footer p{
 .home{
 	display: flex;
     background: url("image/bg-40.jpg") no-repeat center;
-    height: 100vh;
+    min-height: 96vh;
     background-size: cover;
     background-attachment: fixed;
     opacity: 1;
@@ -149,15 +153,23 @@ footer p{
 	font-weight: bold;
 }
 .home-content h2{
-	font-size: 28px;
+	font-size: 30px;
 	text-align: center;
 
 }
 .home-content h1{
-	font-size: 34px;
+	font-size: 50px;
 	text-align: center;
 	letter-spacing: 5px;
 	color: #fff;
+	background-color: ;
+}
+.red{
+	display: flex;
+    background-color: #FF4D4D;
+    min-height: 5vh;
+    color: #E9E9E9;
+    opacity: 1;
 }
 	/*END HOME*/
 
@@ -258,24 +270,35 @@ footer p{
 .box .content p{
 	font-size: 16px;
 }
-
 	/*END SERVICE*/
 
 	/*START ABOUT - Belum Sama Sekali*/
 .about{
 	display: flex;
     background: #FF4D4D;
-    height: 100vh;
-    background-size: cover;
-    background-attachment: fixed;
-    opacity: 1;
+    min-height: 100vh;
     color: white;
+    justify-content: center;
+    align-items: center;
 }
-
-.about-content{
-	font-size: 30px;
-	text-align: center;
-	margin: 20% auto;
-	font-weight: bold;
+.col-sm-7 h2{
+	margin: 10px;
 }
-
+.img-wrap{
+	width: 100%
+}
+.img-wrap img{
+	width: 100%
+	padding:10px;
+	border-radius:50%;
+	box-shadow: 0 5px 15px rgba(0,0,0,.2);
+}
+.about a{
+	text-align: justify;
+}
+.about p{
+	text-align: justify;
+}
+.about .icons{
+	margin-top: 10vh;
+}
